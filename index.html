@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashion wear</title>
+    <link rel="stylesheet" href="./output.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      [popover] {
+        position-area: bottom;
+        margin: initial;
+      }
+    </style>
+  </head>
+  <body class="bg-blue-50">
+    <div
+      class="text-center justify-center text-blue-950 bg-cyan-500 px-4 py-1 italic"
+    >
+      Flash Sale upto 20% off
+    </div>
+    <header class="bg-white shadow-md py-2 sticky top-0 z-10">
+      <div class="cointainer max-w-7xl mx-auto px-4">
+        <div class="flex gap-4 items-center justify-between">
+          <div class="logo flex items-center gap-2">
+            <img src="logo1.jpg" alt="logo " class="h-9 rounded-full" />
+            <h1
+              class="text-transparent bg-linear-to-r from-blue-500 to-blue-900 bg-clip-text text-2xl mt-1 font-bold"
+            >
+              CannonDrip
+            </h1>
+          </div>
+          <nav class="hidden md:block">
+            <a class="text-black px-2 py-2 hover:text-blue-500" href="#"
+              >Home</a
+            >
+            <a class="text-black px-2 py-2 hover:text-blue-500" href="#"
+              >Shop</a
+            >
+            <a class="text-black px-2 py-2 hover:text-blue-500" href="#"
+              >Feature</a
+            >
+            <a class="text-black px-2 py-2 hover:text-blue-500" href="#"
+              >Contact</a
+            >
+          </nav>
+          <button
+            class="px-4 pt-1 pb-2 rounded-3xl bg-cyan-100"
+            popovertarget="cart"
+          >
+            🛒
+            <span class="text-white bg-blue-400 px-2 py-0.5 rounded-xl text-xs"
+              >5</span
+            >
+          </button>
+
+          <div
+            id="cart"
+            popover="auto"
+            class="bg-cyan-300 shadow rounded-xl p-4 mt-0.2"
+          >
+            <ul>
+              <li>Crew Neck T-shirt</li>
+              <li>Polo T-shirt</li>
+              <li>V-neck t-shirt</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="min-h-screen bg-blue-100 py-12">
+        <div class="mx-auto px-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 md:items-center gap-8 md:gap-16">
+            <img src="jokic.avif" alt="Hero image"  class="max-w-full w-auto h-full rounded-2xl shadow-lg"/>
+            <div >
+              <span class="text-blue-500 bg-gray-200 text-xs font-medium px-4 py-2 rounded-xl border-blue-200">Latest Collection 2026 ⚡</span>
+              <h1 class="mt-2 text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl">Choose your everyday style</h1>
+              <p class="text-gray-900 py-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                quo reiciendis obcaecati expedita quas natus quae maiores dolor
+                praesentium maxime.
+              </p>
+              <button class="bg-blue-700 rounded-3xl text-white py-2 px-8 transition ease duration-300 hover:bg-white hover:text-blue-700 cursor-pointer">Shop now</button>
+              <button class="bg-white rounded-3xl px-8 py-2 text-blue-700 border-1  transition ease duration-300 border-blue-700 mx-2 cursor-pointer hover:bg-blue-700 hover:text-white">Explore</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="benefits" class="min-h-screen">Why Choose Us</section>
+      <section id="call-to-action" class="min-h-screen">Call to action</section>
+      <section id="featured" class="min-h-screen">Featured Product</section>
+      <section id="best-seller" class="min-h-screen">Best Seller</section>
+      <section id="contact" class="min-h-screen">Contact</section>
+    </main>
+    <footer class="bg-blue-400 text-white text-center px-4 py-2">
+      © 2026. All right reserved.
+    </footer>
+  </body>
+</html>
