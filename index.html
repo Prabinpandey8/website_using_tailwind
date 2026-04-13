@@ -13,16 +13,24 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <style>
+    <style type="text/tailwindcss">
       [popover] {
         position-area: bottom;
         margin: initial;
       }
+
+      .benefits-card{
+        @apply flex flex-col items-center gap-2;
+      }
+
+
+      
+
     </style>
   </head>
-  <body class="bg-blue-50">
+  <body class="bg-blue-50 ">
     <div
-      class="text-center justify-center text-blue-950 bg-cyan-500 px-4 py-1 italic"
+      class="text-center justify-center text-blue-950 bg-cyan-500 px-4 py-1 italic "
     >
       Flash Sale upto 20% off
     </div>
@@ -77,9 +85,9 @@
     </header>
 
     <main>
-      <section id="hero" class="min-h-screen bg-blue-100 py-12">
-        <div class="mx-auto px-6">
-          <div class="grid grid-cols-1 md:grid-cols-2 md:items-center gap-8 md:gap-16">
+      <section id="hero" class="max-h-screen bg-blue-50 py-12">
+        <div class="mx-auto px-4">
+          <div class="grid grid-cols-1 md:grid-cols-2 md:items-center gap-8 lg:gap-16">
             <img src="jokic.avif" alt="Hero image"  class="max-w-full w-auto h-full rounded-2xl shadow-lg"/>
             <div >
               <span class="text-blue-500 bg-gray-200 text-xs font-medium px-4 py-2 rounded-xl border-blue-200">Latest Collection 2026 ⚡</span>
@@ -95,7 +103,37 @@
           </div>
         </div>
       </section>
-      <section id="benefits" class="min-h-screen">Why Choose Us</section>
+      <section id="benefits" class="py-12 bg-blue-100">
+        <div class="cointainer px-4 mx-auto">
+          <h2 class="text-center  mb-8 font-bold text-2xl">Why Choose Us</h2>
+          <div class=" grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4" >
+            <div class="benefits-card">
+              <span class="text-4xl">🚚</span>
+              <h4 class="text-lg font-medium">Free shiping</h4>
+              <p class="text-gray-900 text-center text-sm">On all order over Rs.1000 , faster delievery</p>
+            </div>
+
+            <div class="benefits-card">
+              <span class="text-4xl">🔁</span>
+              <h4 class="text-lg font-medium">30 days return</h4>
+              <p class="text-gray-900 text-center text-sm">Hassle free exchange and return</p>
+            </div>
+
+            <div class="benefits-card">
+              <span class="text-4xl">🎧</span>
+              <h4 class="text-lg font-medium">24/7 support</h4>
+              <p class="text-gray-900 text-center text-sm">Always available for your support</p>
+            </div>
+              
+             <div class="benefits-card">
+              <span class="text-4xl">💳</span>
+              <h4 class="text-lg font-medium">Secure Payment</h4>
+              <p class="text-gray-900 text-center text-sm">Safe payment gateway,online and card</p>
+             </div>
+
+          </div>
+        </div>
+      </section>
       <section id="call-to-action" class="min-h-screen">Call to action</section>
       <section id="featured" class="min-h-screen">Featured Product</section>
       <section id="best-seller" class="min-h-screen">Best Seller</section>
