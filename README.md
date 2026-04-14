@@ -33,8 +33,8 @@ project/
 │── style.css
 │── output.css
 │── images/
-│   ├── logo1.png
-│   └── jokic.avif
+    ├── logo1.png
+    └── jokic.avif
 
 ## 🚀 How to Run
 
