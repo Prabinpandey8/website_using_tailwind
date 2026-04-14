@@ -28,13 +28,15 @@ The website focuses on user-friendly navigation and a modern interface suitable 
 
 ## 📁 Project Structure
 
+```
 project/
-│── index.html
-│── style.css
-│── output.css
-│── images/
-    ├── logo1.png
-    └── jokic.avif
+│── index.html 
+│── style.css   
+│── output.css  
+│── images/    
+  ├── logo1.png
+  └── jokic.avif
+```
 
 ## 🚀 How to Run
 
