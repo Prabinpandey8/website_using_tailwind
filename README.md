@@ -1,28 +1,28 @@
 # 👕 CannonDrip – Fashion Wear Website
 
-A simple and responsive fashion website built using HTML and Tailwind CSS. It showcases a basic layout for a clothing brand with a clean design and essential UI components.
-
-The website focuses on user-friendly navigation and a modern interface suitable for beginners.
+A modern and responsive fashion website built using **HTML5** and **Tailwind CSS**.
+This project presents a stylish UI for an online clothing brand with essential sections like products, offers, and contact.
 
 ---
 
 ## ✨ Features
 
-- Responsive layout using Tailwind CSS  
-- Navigation bar with logo and menu links  
-- Flash sale promotional banner  
-- Hero section with image and call-to-action buttons  
-- Cart preview using popover  
-- “Why Choose Us” section with benefits  
-- Basic page sections (Featured, Best Seller, Contact)  
+* 📱 Fully responsive design (mobile + desktop)
+* 🎯 Clean and modern UI using Tailwind CSS
+* 🛍️ Product showcase section (Featured & Best Seller)
+* 🛒 Cart preview using popover
+* ⚡ Flash sale banner
+* 💡 “Why Choose Us” section (benefits)
+* 📍 Embedded Google Map for location
+* 📩 Contact form with user details
 
 ---
 
 ## 🛠️ Tech Stack
 
-- HTML5  
-- Tailwind CSS (CDN)  
-- Font Awesome (Icons)  
+* **HTML5** – Structure of the website
+* **Tailwind CSS (CDN)** – Styling and layout
+* **Font Awesome** – Icons
 
 ---
 
@@ -30,24 +30,56 @@ The website focuses on user-friendly navigation and a modern interface suitable 
 
 ```
 project/
-│── index.html 
-│── style.css   
-│── output.css  
-│── images/    
-  ├── logo1.png
-  └── jokic.avif
+│── index.html
+│── output.css
+│── images/
+│    ├── logo1.jpg
+│    ├── jokic.avif
+│    ├── jeans.jpg
+│    └── jacket.avif
 ```
+
+---
 
 ## 🚀 How to Run
 
-1. Open the project folder  
-2. Open `index.html` in any browser  
+1. Download or clone the project
+2. Open the project folder
+3. Double-click on **index.html**
+4. The website will open in your browser
 
 ---
 
-## 💡 Notes
+## 🔥 Sections Included
 
-- This is a frontend-only project  
-- No backend or database is used  
+* Header (Navigation + Cart)
+* Hero Section
+* Benefits Section
+* Call-to-Action
+* Featured Products
+* Best Seller Highlight
+* Contact Section (Form + Map)
+* Footer
 
 ---
+
+## ⚠️ Notes
+
+* This is a **frontend-only project**
+* No backend, database, or payment system is implemented
+* Cart functionality is UI-based (not dynamic)
+
+---
+
+## 📌 Future Improvements
+
+* Add backend (Node.js / Flask / Django)
+* Implement real cart functionality
+* Add user authentication (Login/Register)
+* Connect payment gateway (e.g., eSewa, Khalti, PayPal)
+
+---
+
+## ©️ Copyright
+
+© 2026 CannonDrip. All rights reserved.
